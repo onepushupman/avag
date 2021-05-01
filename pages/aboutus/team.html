@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- BOOTSTRAP ICONS CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css">
+
+    <!-- BOOTSTRAP SOURCE FILES -->
+    <link rel="stylesheet" href="../../resources/scss/custom.css">
+
+    <!-- LEAFLET CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+        crossorigin="" />
+
+    <!-- CSS ANIMATIONS.STYLE CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <!-- MAIN CSS -->
+    <link rel="stylesheet" href="../../main.css">
+
+    <title>Our Team</title>
+</head>
+
+<body>
+
+    <!-- =======================================================================
+    | NAVBAR SECTION
+    ======================================================================= -->
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="../../resources/img/avag-logos/cropped-AVAG-LOGO-foe-web-fwnal-2.png" href="" width="125">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../../index.html">Home</a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">About Us</a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="../../pages/aboutus/aboutus.html">About Us</a></li>
+                            <li><a class="dropdown-item" href="../../pages/aboutus/team.html">Our Team</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="https://donations.auroville.com/?project=avag" target="_blank">Donate</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">What We Do</a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="../../pages/whatwedo/communitydevelopment.html">Community Development</a></li>
+                            <li><a class="dropdown-item" href="../../pages/whatwedo/psychosocialservice.html">Psychosocial Service</a></li>
+                            <li><a class="dropdown-item" href="../../pages/whatwedo/capacitiybuilding.html">Capacitiy Building</a></li>
+                            <li><a class="dropdown-item" href="../../pages/whatwedo/economicdevelopment.html">Economic Development</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="https://donations.auroville.com/?project=avag" target="_blank">Donate</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Key Programs
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="../../pages/keyprograms/avvai.html">AVVAI</a></li>
+                            <li><a class="dropdown-item" href="../../pages/keyprograms/summercamp.html">Summer Camp</a></li>
+                            <li><a class="dropdown-item" href="../../pages/keyprograms/kabaddi.html">Kabaddi</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="https://donations.auroville.com/?project=avag" target="_blank">Donate</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../../pages/initiatives/initiatives.html">Initiatives</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../../pages/aval/aval.html">AVAL</a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Get Involved
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="../../pages/getinvolved/supportus.html">Support Us</a></li>
+                            <li><a class="dropdown-item" href="../../pages/getinvolved/contact.html">Contact</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="https://donations.auroville.com/?project=avag" target="_blank">Donate</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../../pages/donation/donation.html">Donation</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../../pages/resources/resources.html">Resources</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../../pages/blog/blog.html">Blog</a>
+                    </li>
+
+                </ul>
+
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-warning" type="submit">Search</button>
+                </form>
+
+                <div class="d-flex">
+                    <a type="button" class="btn btn-outline-primary ms-2" href="https://twitter.com/villageaction" target="_blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+                            <path
+                                d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z" />
+                        </svg>
+                    </a>
+
+                    <a type="button" class="btn btn-outline-primary ms-2" href="https://www.instagram.com/aurovillevillageactiongroup" target="_blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                            <path
+                                d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" />
+                        </svg> </a>
+
+                    <a type="button" class="btn btn-outline-primary ms-2" href="https://www.facebook.com/AurovilleVillageActionGroup/" target="_blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                            <path
+                                d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
+                        </svg> </a>
+
+                    <a type="button" class="btn btn-outline-primary ms-2" href="https://www.linkedin.com/company/aurovillevillageactiongroup" target="_blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+                            <path
+                                d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z" />
+                        </svg> </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- =======================================================================
+    | COVER SECTION
+    ======================================================================= -->
+
+    <div class="container-fluid text-center cover-section__flower">
+        <h1 class="display-3 fw-bold text-light p-5">Our Team</h1>
+    </div>
+
+    <!-- =======================================================================
+    |  TEAM SECTION  
+    ======================================================================= -->
+
+    <section class="container mb-5">
+        <div class="founder mt-5 text-center">
+            <img src="../../resources/img/team-pictures/bhavana.jpg" width="400">
+            <h2 class="display-5 fw-bold">Bhavana, Founder</h2>
+            <p class="fs-4 mb-5">
+                Born 13 September, 1943 in upstate New York, Bhavana (then Dee) left the USA in the mid-1960s for what she called “the university of the road”, arriving in Auroville in 1971. In 1983,
+                Bhavana founded Auroville Village Action Group, pioneering the development work that, for her, was essential to manifesting the dream of Auroville. Besides fundraising and
+                administrative work, Bhavana helped many young Tamilians develop their skills, remaining available to them for counsel throughout her life. Shifting to Vérité in 1993, she helped
+                develop the Integral Learning Center, cheerfully attended to guests, and held daily meditation and Savitri reading. She also introduced manyo Vipassana through organizing retreats.
+                Over the years, Bhavana represented Auroville in India and abroad, and served in various working groups. She was a trustee of Village Action and Animal Care and executive of AIP and
+                Vérité Guest House. Diagnosed with cancer in January, Bhavana accepted it as Yoga, exploring conventional and alternative treatments while preparing for a conscious transition. Bhavana
+                died on 11 May, 2011 in the community she loved and served joyfully for 40 years, and was buried in Vérité’s “wisdom tope”.
+            </p>
+        </div>
+        <div class="row text-center">
+            <div class="col">
+                <img src="../../resources/img/team-pictures/bridget.jpg" width="300">
+                <h3 class="display-6 fw-bold">Bridget Horkan, Executive</h3>
+                <p class="fs-5">
+                    She lives and works in Auroville, co-founded Thamarai projects in 2006 , which are informal educational platforms for the villagers of Edyanchavadi. She was involved in development
+                    aid in Rwanda in the aftermath of the 1994 genocide and in many community projects in Ireland, where she is originally from. She has run her own business and worked in marketing
+                    positions for over 20 years</p>
+            </div>
+            <div class="col">
+                <img src="../../resources/img/team-pictures/abha.jpg" width="300">
+                <h3 class="display-6 fw-bold">Abha Tiwari, Executive</h3>
+                <p class="fs-5">
+                    A graduate in psychology from Lady Shri Ram College, Delhi University. She joined Auroville in June 1978. Worked in La Ferme (The Farm). Started Shradhanjali in 1980. She is also
+                    executive of Mira Boutique, the sales outlet in Visitors Center. Simultaneously in the 1980s, worked jointly on correcting the first 3 volumes of the translation of the Mother’s
+                    Agenda from French into Hindi.In 1997, she went on training to Pune (under B.K.S. Iyengar) and started teaching Yogasanas at Pitanga for 15 years. She also gave yoga classes at
+                    Last School and for a short time in Nadukuppam village
+                </p>
+            </div>
+            <div class="col">
+                <img src="../../resources/img/team-pictures/angela.jpg" width="300">
+                <h3 class="display-6 fw-bold">Angela, Executive</h3>
+                <p class="fs-5">
+                    Originally from Italy, she has lived many years in Germany and Uk where she has completed her studies. Before joining Auroville in 2002 she has worked in the field of education and
+                    social work. After joining, she continued her work as a teacher in Future school and simultaneously served as a member in different working groups in Auroville. She is part of AVAG
+                    team since April 2018.
+                </p>
+            </div>
+        </div>
+        <div class="row text-center mt-5">
+            <div class="col">
+                <img src="../../resources/img/team-pictures/jerald.jpg" width="300">
+                <h3 class="display-6 fw-bold">Jerald Moris, Project Director</h3>
+                <p class="fs-5">
+                    Jerald Moris has his master’s degree in sociology and public administration and served as president of the All India Catholic University Federation (AICUF), at the college and
+                    later zonal level. After graduating, he joined Village Reconstruction Organization and through VRO Director Father Windy, Moris attributes much of his practical education on
+                    implementing social programmes. In 1988, he joined AVAG and he is a member or an office bearer of different networks for development. He continues to advocate people’s
+                    participation in all his initiatives.
+                </p>
+            </div>
+            <div class="col">
+                <img src="../../resources/img/team-pictures/anbu.jpg" width="300">
+                <h3 class="display-6 fw-bold">Anbu Sironmani, Project Director</h3>
+                <p class="fs-5">
+                    Started her association with the development field when she was a student. In college, she was on the editorial board for a women’s empowerment magazine, served as President of the
+                    Anti-Dowry Association, and served as a human resource trainer for NGO’s. She worked for the Village Reconstruction Organization (VRO) before finishing her Masters in Social Work
+                    with a specialisation in Community Development and then joined AVAG in 1988. Anbu continues to attend regular Trainer’s Trainings on Participatory Rural Appraisal, gender issues,
+                    social analysis, somatic Experiencing, and enterprise development.
+                </p>
+            </div>
+            <div class="col">
+                <img src="../../resources/img/team-pictures/subbu.jpg" width="300">
+                <h3 class="display-6 fw-bold">Kavery Subramanian B, Finance Director</h3>
+                <p class="fs-5">
+                    Has been working in AVAG since March, 2005 after the Tsunami. He manages all financial tasks of the organisation and also looks after several other units in Auroville in the field
+                    of Finance MIS (Management Information Systems). Among other things, his responsibilities include payroll and budget preparation, project management accounting and risk management.
+                </p>
+            </div>
+        </div>
+        <div class="row text-center mt-5">
+            <div class="col">
+                <img src="../../resources/img/team-pictures/maki.jpg" width="300">
+                <h3 class="h4 fw-bold">Makizhselvam, Office Manager</h3>
+            </div>
+            <div class="col">
+                <img src="../../resources/img/team-pictures/ashok.jpg" width="300">
+                <h3 class="h4 fw-bold">Ashok, Cluster Coordinator</h3>
+            </div>
+            <div class="col">
+                <img src="../../resources/img/team-pictures/mangai.jpg" width="300">
+                <h3 class="h4 fw-bold">Mangai, Cluster Coordinator</h3>
+            </div>
+            <div class="col">
+                <img src="../../resources/img/team-pictures/govindammal.jpg" width="300">
+                <h3 class="h4 fw-bold">Govindammal, Cluster Coordinator</h3>
+            </div>
+        </div>
+        <div class="row text-center mt-5">
+            <div class="col">
+                <img src="../../resources/img/team-pictures/bouvaneswari.jpg" width="300">
+                <h3 class="h4 fw-bold">Bouvaneswari, Cluster Coordinator</h3>
+            </div>
+            <div class="col">
+                <img src="../../resources/img/team-pictures/iyappan.jpg" width="300">
+                <h3 class="h4 fw-bold">Iyappan, Cluster Co-ordinator</h3>
+            </div>
+            <div class="col">
+                <img src="../../resources/img/team-pictures/ponnammal.jpg" width="300">
+                <h3 class="h4 fw-bold">Ponnammal, Cluster Co-ordinator</h3>
+            </div>
+            <div class="col">
+                <img src="../../resources/img/team-pictures/vinayagam.jpg" width="300">
+                <h3 class="h4 fw-bold">Vinayagam, Driver and Office Assistant</h3>
+            </div>
+        </div>
+        <div class="row text-center mt-5">
+            <div class="col">
+                <img src="../../resources/img/team-pictures/guejalakshmi.jpg" width="300">
+                <h3 class="h4 fw-bold">Guejalakshmi, Chief Accountant</h3>
+            </div>
+            <div class="col">
+                <img src="../../resources/img/team-pictures/dev-anand.jpg" width="300">
+                <h3 class="h4 fw-bold">Dev Anand, Accountant</h3>
+            </div>
+            <div class="col">
+                <img src="../../resources/img/team-pictures/umamageswari.jpg" width="300">
+                <h3 class="h4 fw-bold">Umamageswari, Accountant</h3>
+            </div>
+            <div class="col">
+                <img src="../../resources/img/team-pictures/siva.jpg" width="300">
+                <h3 class="h4 fw-bold">Siva, Master Tailor</h3>
+            </div>
+        </div>
+        <div class="row text-center mt-5">
+            <div class="col">
+                <img src="../../resources/img/team-pictures/madhu.jpg" width="300">
+                <h3 class="h4 fw-bold">Madhu Jayamurthy, Communication</h3>
+            </div>
+            <div class="col">
+                <img src="../../resources/img/team-pictures/mangai-cook.jpg" width="300">
+                <h3 class="h4 fw-bold">Mangai, Cook</h3>
+            </div>
+            <div class="col">
+                <img src="../../resources/img/team-pictures/devi.jpg" width="300">
+                <h3 class="h4 fw-bold">Devi, Cook</h3>
+            </div>
+            <div class="col">
+                <img src="../../resources/img/team-pictures/sekar.jpg" width="300">
+                <h3 class="h4 fw-bold">Sekar, Gardener</h3>
+            </div>
+        </div>
+        <div class="row text-center mt-5">
+            <div class="col">
+                <img src="../../resources/img/team-pictures/shrimayee.jpg" width="300">
+                <h3 class="h4 fw-bold">Shrimayee, Fundraising and Communication</h3>
+            </div>
+            <div class="col">
+                <img src="../../resources/img/team-pictures/konrad.jpg" width="300">
+                <h3 class="h4 fw-bold">Konrad, Content Creator Intern</h3>
+            </div>
+            <div class="col">
+                <img src="../../resources/img/team-pictures/penelope.jpg" width="300">
+                <h3 class="h4 fw-bold">Penelope, Photographer Intern</h3>
+            </div>
+            <div class="col">
+                <img src="../../resources/img/team-pictures/aaron.jpg" width="300">
+                <h3 class="h4 fw-bold">Aaron, Web Developer</h3>
+            </div>
+        </div>
+    </section>
+
+    <!-- =======================================================================
+    |  FOOTER SECTION  
+    ======================================================================= -->
+
+    <!-- Footer -->
+    <footer class="text-center text-white bg-dark">
+        <!-- Grid container -->
+        <div class="container">
+            <!-- Section: Links -->
+            <section class="mt-5">
+                <!-- Grid row-->
+                <div class="row text-center d-flex justify-content-center pt-5">
+                    <!-- Grid column -->
+                    <div class="col-md-2">
+                        <h6 class="h5 text-uppercase font-weight-bold">About us
+                        </h6>
+                        <a class="text-light" href="../../pages/aboutus/aboutus.html">About Us</a>
+                        <a class="text-light" href="../../pages/aboutus/team.html">Our Team</a>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-2">
+                        <h6 class="h5 text-uppercase font-weight-bold">What We Do
+                        </h6>
+                        <a class="text-light" href="../../pages/whatwedo/communitydevelopment.html">Community Development</a>
+                        <a class="text-light" href="../../pages/whatwedo/psychosocialservice.html">Psychosocial Service</a>
+                        <a class="text-light" href="../../pages/whatwedo/capacitiybuilding.html">Capacitiy Building</a>
+                        <a class="text-light" href="../../pages/whatwedo/economicdevelopment.html">Economic Development</a>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-2">
+                        <h6 class="h5 text-uppercase font-weight-bold">Key Programs
+                        </h6>
+                        <a class="text-light" href="../../pages/keyprograms/avvai.html">AVVAI</a>
+                        <a class="text-light" href="../../pages/keyprograms/summercamp.html">Summer Camp</a>
+                        <a class="text-light" href="../../pages/keyprograms/kabaddi.html">Kabaddi</a>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-2">
+                        <h6 class="h5 text-uppercase font-weight-bold">Initiatives
+                        </h6>
+                        <a class="text-light" href="../../pages/initiatives/initiatives.html">Initiatives</a>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-2">
+                        <h6 class="h5 text-uppercase font-weight-bold">AVAL
+                        </h6>
+                        <a class="text-light" href="../../pages/aval/aval.html">About AVAL</a>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-2">
+                        <h6 class="h5 text-uppercase font-weight-bold">Get Involved
+                        </h6>
+                        <a class="text-light" href="../../pages/getinvolved/supportus.html">Support Us</a>
+                        <a class="text-light" href="../../pages/donation/donation.html">Donation</a>
+                        <a class="text-light" href="../../pages/getinvolved/contact.html">Contact</a>
+                    </div>
+                    <!-- Grid column -->
+
+                </div>
+                <!-- Grid row-->
+            </section>
+            <!-- Section: Links -->
+
+            <hr class="my-5" />
+
+            <!-- Section: Text -->
+            <section class="mb-5">
+                <div class="row d-flex justify-content-center">
+                    <div class="col-lg-8">
+                        <p>
+                            Auroville Village Action Group collaborates with the rural communities to reveal their innate wisdom and ability to collectively determine and manifest their dynamic
+                            potential.
+                        </p>
+                    </div>
+                </div>
+            </section>
+            <!-- Section: Text -->
+
+            <!-- Section: Social -->
+            <section class="text-center mb-5">
+                <a type="button" class="btn btn-outline-warning ms-2" href="https://www.instagram.com/aurovillevillageactiongroup" target="_blank">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                        <path
+                            d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" />
+                    </svg> </a>
+                <a type="button" class="btn btn-outline-warning ms-2" href="https://www.facebook.com/AurovilleVillageActionGroup/" target="_blank">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                        <path
+                            d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
+                    </svg> </a>
+                <a type="button" class="btn btn-outline-warning ms-2" href="https://www.facebook.com/AurovilleVillageActionGroup/" target="_blank">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                        <path
+                            d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
+                    </svg> </a>
+
+                <a type="button" class="btn btn-outline-warning ms-2" href="https://www.linkedin.com/company/aurovillevillageactiongroup" target="_blank">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+                        <path
+                            d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z" />
+                    </svg> </a>
+            </section>
+            <!-- Section: Social -->
+        </div>
+        <!-- Grid container -->
+
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+            © 2021 Copyright:
+            <a class="text-white" href="https://villageaction.in/">Auroville Village Action Group</a>
+        </div>
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+            Made with <code><</code><code>/</code><code>3</code>
+            <a class="text-white" target="_blank" href="https://www.linkedin.com/in/aaronsamuelhauck/">Aaron-Samuel Hauck</a>
+        </div>
+        <!-- Copyright -->
+    </footer>
+
+    <!-- =======================================================================
+    | JAVASCRIPT SCRIPTS
+    ======================================================================= -->
+
+    <!-- IONICONS SCRIPT -->
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+    <!-- BOOTSTRAP JS BUNDLE -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+        crossorigin="anonymous"></script>
+    <!-- LEAFLET JS -->
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script>
+    <script type="text/javascript" src="../../leaflet.js"></script>
+    <script type="text/javascript" src="../../custom.js"></script>
+
+</body>
+
+</html>
