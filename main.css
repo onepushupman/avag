@@ -35,7 +35,7 @@ html:#BF9E79
 }
 
 .cover-section {
-  background-image: url(resources/img/lighting-candle.jpg);
+  background-image: url(resources/img/lighting-candle_result.webp);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 30% 30%;
@@ -43,7 +43,7 @@ html:#BF9E79
 }
 
 .cover-section__flower {
-  background-image: url(resources/img/cover-section-flower.jpg);
+  background-image: url(resources/img/cover-section-flower_result.webp);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 35% 35%;
@@ -65,7 +65,7 @@ ion-icon {
 
 /* Initiatives Video */
 .video-banner {
-  background-image: url(resources/img/video-banner-background.jpg);
+  background-image: url(resources/img/video-banner-background_result.webp);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 90%;
@@ -83,7 +83,7 @@ ion-icon {
 
 /* Last Cover */
 .better-future {
-  background-image: url(resources/img/Exchange-cover-page.jpg);
+  background-image: url(resources/img/Exchange-cover-page_result.webp);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 5% 5%;
@@ -156,7 +156,7 @@ footer a:hover {
   }
 
   .video-banner {
-    background-image: url(resources/img/video-banner-background.jpg);
+    background-image: url(resources/img/video-banner-background_result.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 15% 15%;
@@ -188,7 +188,7 @@ footer a:hover {
   }
 
   .video-banner {
-    background-image: url(resources/img/video-banner-background.jpg);
+    background-image: url(resources/img/video-banner-background_result.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 15% 15%;
@@ -225,7 +225,7 @@ footer a:hover {
   }
 
   .video-banner {
-    background-image: url(resources/img/video-banner-background.jpg);
+    background-image: url(resources/img/video-banner-background_result.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 15% 15%;
@@ -262,7 +262,7 @@ footer a:hover {
   }
 
   .video-banner {
-    background-image: url(resources/img/video-banner-background.jpg);
+    background-image: url(resources/img/video-banner-background_result.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 15% 15%;
@@ -293,14 +293,14 @@ footer a:hover {
   }
 
   .cover-section {
-    background-image: url(resources/img/lighting-candle.jpg);
+    background-image: url(resources/img/lighting-candle_result.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 30% 30%;
     height: 70vh;
   }
   .cover-section__flower {
-    background-image: url(resources/img/cover-section-flower.jpg);
+    background-image: url(resources/img/cover-section-flower_result.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 35% 35%;
@@ -322,7 +322,7 @@ footer a:hover {
 
   /* Initiatives Video */
   .video-banner {
-    background-image: url(resources/img/video-banner-background.jpg);
+    background-image: url(resources/img/video-banner-background_result.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 15% 15%;
@@ -340,7 +340,7 @@ footer a:hover {
 
   /* Last Cover */
   .better-future {
-    background-image: url(resources/img/Exchange-cover-page.jpg);
+    background-image: url(resources/img/Exchange-cover-page_result.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 5% 5%;
@@ -382,14 +382,14 @@ footer a:hover {
   }
 
   .cover-section {
-    background-image: url(resources/img/lighting-candle.jpg);
+    background-image: url(resources/img/lighting-candle_result.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 30% 30%;
     height: 70vh;
   }
   .cover-section__flower {
-    background-image: url(resources/img/cover-section-flower.jpg);
+    background-image: url(resources/img/cover-section-flower_result.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 35% 35%;
@@ -411,7 +411,7 @@ footer a:hover {
 
   /* Initiatives Video */
   .video-banner {
-    background-image: url(resources/img/video-banner-background.jpg);
+    background-image: url(resources/img/video-banner-background_result.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 15% 15%;
@@ -429,7 +429,7 @@ footer a:hover {
 
   /* Last Cover */
   .better-future {
-    background-image: url(resources/img/Exchange-cover-page.jpg);
+    background-image: url(resources/img/Exchange-cover-page_result.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 5% 5%;
