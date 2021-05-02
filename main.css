@@ -56,6 +56,16 @@ html:#BF9E79
   height: 600px;
 }
 
+/* Lazyload */
+img {
+  transition: filter 0.3s;
+}
+
+img.lazy {                
+  width: 100%;
+  filter: blur(8px);
+}
+
 /* Icons */
 ion-icon {
   font-size: 4rem;
