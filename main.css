@@ -27,7 +27,7 @@ html:#BF9E79
 
 /* Cover */
 .aval_logo {
-  width: 40%;
+  width: 30%;
 }
 
 .auroville_donation__btn {
@@ -35,7 +35,7 @@ html:#BF9E79
 }
 
 .cover-section {
-  background-image: url(resources/img/lighting-candle_result.webp);
+  background-image: url(/resources/img/2021/8_covidresponse/pandemiccover.webp);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 30% 30%;
@@ -157,7 +157,7 @@ footer a:hover {
 
   /* Cover */
   .aval_logo {
-    width: 70%;
+    width: 25%;
   }
 
   /* Initiatives Video */
@@ -189,7 +189,7 @@ footer a:hover {
 
   /* Cover */
   .aval_logo {
-    width: 50%;
+    width: 20%;
   }
 
   /* Initiatives Video */
@@ -226,7 +226,7 @@ footer a:hover {
 
   /* Cover */
   .aval_logo {
-    width: 50%;
+    width: 15%;
   }
 
   /* Initiatives Video */
@@ -263,7 +263,7 @@ footer a:hover {
 
   /* Cover */
   .aval_logo {
-    width: 40%;
+    width: 15%;
   }
 
   /* Initiatives Video */
@@ -295,7 +295,7 @@ footer a:hover {
 
   /* Cover */
   .aval_logo {
-    width: 30%;
+    width: 15%;
   }
 
   .auroville_donation__btn {
@@ -303,7 +303,7 @@ footer a:hover {
   }
 
   .cover-section {
-    background-image: url(resources/img/lighting-candle_result.webp);
+    background-image: url(/resources/img/2021/8_covidresponse/pandemiccover.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 30% 30%;
@@ -384,7 +384,7 @@ footer a:hover {
 
   /* Cover */
   .aval_logo {
-    width: 30%;
+    width: 10%;
   }
 
   .auroville_donation__btn {
@@ -392,7 +392,7 @@ footer a:hover {
   }
 
   .cover-section {
-    background-image: url(resources/img/lighting-candle_result.webp);
+    background-image: url(/resources/img/2021/8_covidresponse/pandemiccover.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 30% 30%;
@@ -491,4 +491,8 @@ footer a:hover {
 
 .about-us_home__text {
   margin-top: 15%;
+}
+
+.relief-fund {
+  text-decoration: underline;
 }
